@@ -1,0 +1,14 @@
+.output{
+    &__results{
+        text-align: center;
+        &-temp{
+            font-size: 2rem;
+        }
+    }
+    &__img-container{
+        text-align: center;
+    }
+    .is-icon{
+        font-size: 1.5rem;
+    }
+}

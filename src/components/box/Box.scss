@@ -1,0 +1,24 @@
+$backColor: #202841;
+
+.box{
+    &-wrapper{
+        background-color: $backColor;
+        padding: 2em;
+        width: 80%;
+        color: #fff;
+    }
+    &__title{
+        color: #dfdeee;
+        padding: 0;
+        text-align: center;
+    }
+    &__subtitle{
+        font: {
+            size: 1em;
+            weight: 400;
+        }
+        color: #a1a1a1;
+        margin: 0.8em 0 2em;
+        text-align: center;
+    }
+}

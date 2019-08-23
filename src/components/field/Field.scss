@@ -1,0 +1,15 @@
+$borderColor: #262e49;
+$backColor: #2a324d;
+
+.form-field{
+    outline: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: #999;
+    border: 1px solid $borderColor;
+    width: 100%;
+    background-color: $backColor;
+    &__container{
+        margin: 1.5em 0;
+    }
+}
